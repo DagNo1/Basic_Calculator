@@ -353,6 +353,10 @@ files:
         }
     }
   learner_created: false
+- name: src/test/java/resources/robolectric.properties
+  visible: false
+  text: sdk=28
+  learner_created: false
 - name: src/test/java/org/hyperskill/calculator/Stage3UnitTest.kt
   visible: false
   text: |-
@@ -596,10 +600,9 @@ files:
 
     }
   learner_created: false
-- name: src/test/java/resources/robolectric.properties
-  visible: false
-  text: sdk=28
-  learner_created: false
 feedback_link: https://hyperskill.org/projects/190/stages/951/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 20 Sep 2022 11:34:03 UTC
 record: -1
