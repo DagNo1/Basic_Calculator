@@ -30,10 +30,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginHorizontal="3sp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="30dp"
                 android:layout_weight="95"
                 android:gravity="center"
-                android:paddingVertical="23sp"
+                android:paddingVertical="35sp"
                 android:text="@string/clear" />
 
             <Button
@@ -41,10 +41,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginHorizontal="3sp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="30dp"
                 android:layout_weight="5"
                 android:gravity="center"
-                android:paddingVertical="23sp"
+                android:paddingVertical="35sp"
                 android:text="@string/division" />
         </LinearLayout>
 
@@ -90,7 +90,7 @@
                 android:layout_marginHorizontal="3sp"
                 android:layout_weight="25"
                 android:gravity="center"
-                android:paddingVertical="23sp"
+                android:paddingVertical="35sp"
                 android:text="@string/multiply" />
         </LinearLayout>
 
@@ -107,7 +107,7 @@
                 android:layout_marginHorizontal="3sp"
                 android:layout_weight="25"
                 android:gravity="center"
-                android:paddingVertical="23sp"
+                android:paddingVertical="35sp"
                 android:text="@string/_4" />
 
             <Button
@@ -117,7 +117,7 @@
                 android:layout_marginHorizontal="3sp"
                 android:layout_weight="25"
                 android:gravity="center"
-                android:paddingVertical="23sp"
+                android:paddingVertical="35sp"
                 android:text="@string/_5" />
 
             <Button
@@ -127,7 +127,7 @@
                 android:layout_marginHorizontal="3sp"
                 android:layout_weight="25"
                 android:gravity="center"
-                android:paddingVertical="23sp"
+                android:paddingVertical="35sp"
                 android:text="@string/_6" />
 
             <Button
@@ -137,14 +137,15 @@
                 android:layout_marginHorizontal="3sp"
                 android:layout_weight="25"
                 android:gravity="center"
-                android:paddingVertical="23sp"
+                android:paddingVertical="35sp"
                 android:text="@string/subtract" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:weightSum="100">
+            android:weightSum="100"
+            android:paddingTop="5sp">
 
             <Button
                 android:id="@+id/button1"
@@ -153,7 +154,7 @@
                 android:layout_marginHorizontal="3sp"
                 android:layout_weight="25"
                 android:gravity="center"
-                android:paddingVertical="23sp"
+                android:paddingVertical="35sp"
                 android:text="@string/_1" />
 
             <Button
@@ -163,7 +164,7 @@
                 android:layout_marginHorizontal="3sp"
                 android:layout_weight="25"
                 android:gravity="center"
-                android:paddingVertical="23sp"
+                android:paddingVertical="35sp"
                 android:text="@string/_2" />
 
             <Button
@@ -173,7 +174,7 @@
                 android:layout_marginHorizontal="3sp"
                 android:layout_weight="25"
                 android:gravity="center"
-                android:paddingVertical="23sp"
+                android:paddingVertical="35sp"
                 android:text="@string/_3" />
 
             <Button
@@ -183,14 +184,15 @@
                 android:layout_marginHorizontal="3sp"
                 android:layout_weight="25"
                 android:gravity="center"
-                android:paddingVertical="23sp"
+                android:paddingVertical="35sp"
                 android:text="@string/addition" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:weightSum="100">
+            android:weightSum="100"
+            android:paddingTop="5sp">
 
             <Button
                 android:id="@+id/button0"
@@ -199,7 +201,7 @@
                 android:layout_marginHorizontal="3sp"
                 android:layout_weight="90"
                 android:gravity="center"
-                android:paddingVertical="23sp"
+                android:paddingVertical="35sp"
                 android:text="@string/_0" />
 
             <Button
@@ -209,7 +211,7 @@
                 android:layout_marginHorizontal="3sp"
                 android:layout_weight="5"
                 android:gravity="center"
-                android:paddingVertical="23sp"
+                android:paddingVertical="35sp"
                 android:text="@string/dot" />
 
             <Button
@@ -219,7 +221,7 @@
                 android:layout_marginHorizontal="3sp"
                 android:layout_weight="5"
                 android:gravity="center"
-                android:paddingVertical="23sp"
+                android:paddingVertical="35sp"
                 android:text="@string/equals" />
         </LinearLayout>
     </LinearLayout>
