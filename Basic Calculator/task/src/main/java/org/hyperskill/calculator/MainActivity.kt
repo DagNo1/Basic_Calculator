@@ -51,24 +51,30 @@ class MainActivity : AppCompatActivity() {
     private fun cleanUp() {
         panel.text.clear()
         panel.text.append("0")
+        panel.hint = "0"
     }
     private fun addOperator(operator: String) {
         equation.add(panel.text.toString())
         equation.add(operator)
         cleanUp()
+        panel.text.clear()
+        panel.hint = equation[0]
     }
     private fun calculate() {
         equation.add(panel.text.toString())
-        val result = when (equation[1]) {
+        var result = when (equation[1]) {
             "+" -> equation[0].toDouble() + equation[2].toDouble()
             "-" -> equation[0].toDouble() - equation[2].toDouble()
             "*" -> equation[0].toDouble() * equation[2].toDouble()
             "/" -> equation[0].toDouble() / equation[2].toDouble()
             else -> return
+        }.toString()
+        if (result.matches("-?\\d+\\.0+".toRegex())) {
+            result = result.substringBefore('.')
         }
         equation.clear()
         panel.text.clear()
-        panel.text.append(result.toString())
+        panel.text.append(result)
     }
 
 }
